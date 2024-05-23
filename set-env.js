@@ -25,3 +25,4 @@ fs.writeFileSync('src/environments/environment.ts', envConfig, { encoding: 'utf8
 
 
 console.log('Environment files created successfully.');
+
