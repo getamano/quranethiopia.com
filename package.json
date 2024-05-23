@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build:init": "node set-env.js",
-    "build": "ng build",
+    "build": "node set-env.js && ng build",
+    "build:deploy": "node set-env.js && ng build && firebase deploy",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:quranethiopia": "node dist/quranethiopia/server/server.mjs"
